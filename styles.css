@@ -1,0 +1,138 @@
+:root {
+    --table-border: 1px solid midnightblue;
+    --table-padding: 3px;
+ 
+    --header-color: rgb(205, 147, 243);
+}
+
+body {
+    background-size: cover;
+    background-image: url(back_img.jpg); 
+    background-repeat: repeat-y repeat-x;
+    font-family:cursive;
+    font-size: 12pt;
+    color: #DCAE96;
+    
+}
+
+h2 {
+    color: var(--header-color);
+    font-weight:bold;
+    font-size: 20pt;
+}
+
+img {
+    height: 300px;
+    transform: rotate(90deg);
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px rgb(200, 229, 238) double;
+
+}
+
+th {
+    vertical-align: top;
+    border: var(--table-border);
+    color: midnightblue;
+}
+
+td {
+    vertical-align: top;
+    border: var(--table-border);
+    padding: var(--table-padding);
+}
+
+
+#tableHeader {
+    text-align: center;
+    color: var(--header-color);
+    font-weight:bold;
+    font-size: 20pt;
+}
+
+table {
+    border: var(--table-border);
+    border-spacing:var(--table-spacing);
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+    width: 900px;
+}
+
+#poem {
+    text-align: center;
+}
+
+#personalInfo {
+    margin: 20px; 
+    text-align: left;
+
+}
+
+.strong {
+    font-weight: bold;
+}
+
+header h1{
+
+    font-size: 70px;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 5px solid rgb(205, 147, 243);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.Study {
+    background-color: rgb(134, 134, 252);
+}
+.Workout {
+    background-color: #99e2fa;
+}
+.Wakeup {
+    background-color: #fccffc;
+}
+.Starcraft {
+    background-color: #f0dbd0;
+}
+.CS2300 {
+    background-color: #FFFDD0;
+}
+.Travel {
+    background-color: #d0f3e8;
+}
+.CS1400 {
+    background-color: #C7D0EE;
+}
+.Ping-Pong {
+    background-color: #6ed8b6;
+}
+.CS2810 {
+    background-color: #FFFDD0;
+}
+.CS2370 {
+    background-color: #e8c7f7;
+}
+.Cook {
+    background-color: #fc6592;
+}
+.Dinner {
+    background-color: rgba(25, 240, 122, 0.521);
+}
+.Shower {
+    background-color: #f88058;
+}
+.Scriptures {
+    background-color: #c5ffb0;
+}
+.Weekend {
+    background-color: #ff4946;
+}
